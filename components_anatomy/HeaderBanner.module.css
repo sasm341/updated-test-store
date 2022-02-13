@@ -1,0 +1,293 @@
+.banner{
+    font-size:20px;
+    color:#fff;
+    position:relative;
+    
+}
+.banner p{
+    font-size: 1.25em;
+    padding-top:15px
+}
+.banner h1{
+    font-size: 3.9em;
+    line-height: 1em;
+    margin-top: 15px;
+    font-weight:700;
+}
+.banner video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+    
+}
+.bannercontent{
+     position:relative;
+     overflow:hidden;
+     padding:0 20px;
+     padding-top:148px;
+    
+}
+
+.logo>div{
+    display:block !important;
+    height:91px;
+}
+.logo{
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+.fadeInDown{
+    animation-name: fadeInDown;
+    padding: 10px;
+  
+}
+.fadeInDown li{
+  padding:5px;
+  margin-top:1.25em;
+}
+.header{
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+  
+.bannercontent .textsec{
+  padding:0 20px;
+  text-align:center;
+
+}
+    /*
+    position:absolute; 
+    margin-top:10px;
+    left: 50%; x
+    transform: translate( -50%); */
+
+.fadeInDown a{
+    text-decoration:none !important;
+    color:#0F1620;
+}
+.fadeInDown ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup {
+    padding:2rem 20px;
+    background:rgba(9,28,43, .9);
+    display: block;
+    position:relative;
+    margin-top:30px;
+    max-width:900px;
+    margin:30px auto 0;
+    border-radius: 40px 40px 0 0;
+    font-size:15px;
+    
+  }
+  .signup h2 {
+    margin-bottom:5px;
+    font-size:1.7rem;
+
+    
+  }
+  .signup a {
+    color:#4ffcc6;
+    text-decoration:none;
+    font-weight:700;
+  }
+  .signup h2, .signup p{
+    color:#fff;
+    margin:0;
+    padding:0;
+  }
+ .signup p {margin-bottom:20px;font-size:1.15rem;}
+
+.signup form {
+    display:flex;
+
+    .col {
+      .button {
+        margin-top: 0 !important;
+        background: red;
+        border-color: red;
+        color:#000;
+      }
+    }
+  
+  }
+  .signup form .col input, .signup form .col textarea,.signup form .col select {
+    border-color:#fff;
+    &:hover, &:focus {
+      border-color:red;
+    }
+  }
+ 
+.labelToggle{
+    position:relative;
+    padding:0 0.5rem;
+}
+.labelToggle label{
+    position:absolute;
+    color:#45484B;
+    
+}
+.delay1{
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+.signup input{
+  border: none;
+  padding: 1.1rem 0.75rem 0.25rem 0.7rem;
+  font-size: 1.20rem;
+  color: #333;
+  width: 100%;
+  height: 48px;
+  line-height: 43px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+}
+
+.sronly{
+      border: 0;
+    clip: rect(0,0,0,0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.signup form div{
+  padding: 0.5rem;
+}
+
+.labelToggle{
+  position:relative;
+   
+}
+.labelToggle label{
+  position: absolute;
+  font-size: 1.25rem;
+  line-height: 48px;
+  left: 1.35rem;
+  pointer-events: none;
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  font-weight: 400;
+  color:#45484B;
+}
+
+.togglelabel{
+  position:relative;
+  padding:0 0.5rem;
+  
+}
+ .togglelabel label{
+  position: absolute;
+  top: 1.01rem;
+  left: 1.25rem;
+  line-height: .75rem;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .05rem;
+  color:#45484B;
+} 
+.signup .row{
+  padding:0 20px;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.fadeInDown{
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@media(max-width:575px){
+  
+}
+@media(max-width: 767px){
+  .logo{
+    max-width:320px;
+    width:100%;
+  }
+  .logo img{
+   height:auto !important;
+   min-height:0 !important;
+
+  }
+
+  .signup form{
+    display:block;
+    text-align:center;
+  }
+    .signup label
+    {
+     margin:5px;
+    }
+    .signup{
+      overflow:hidden;
+    }
+    .fadeInDown ul{
+      width: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .fadeInDown a{
+      padding:0;
+    }
+   
+    .social{
+      width:auto;
+      margin:0;
+    }
+    .bannercontent h1{
+      font-size:2.5rem;
+      font-weight:700;
+    }
+    .bannercontent p{
+      font-size:0.9em;
+    }
+    .labelToggle label{
+      line-height:36px !important;
+    }
+    .signup div{
+      padding:0.4rem 0 !important;
+    }
+    .togglelabel label{
+      top:0.33rem !important;
+    }.signup button{
+      width:100%
+    }
+  }
+  
